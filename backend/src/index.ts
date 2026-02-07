@@ -12,7 +12,7 @@ import { initializeQueue, initializeWorker, closeQueue } from './services/queueS
 import prisma from './config/prisma';
 
 const app: Express = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 /**
  * Initialize middleware
